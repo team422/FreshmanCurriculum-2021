@@ -16,7 +16,7 @@ import frc.robot.RobotMap;
 /**
  * The drive base of the robot. Includes all drive train motor controllers as well as sensors such as gyros and encoders, and can use PID to set its motor speeds.
  */
-public class DriveBase extends SubsystemBase {
+public class DriveBase { // should be fixed
 
     public WPI_TalonSRX leftMiddleMaster;
     public WPI_TalonSRX rightMiddleMaster;
